@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+
+
+
+
+
+
+    <div class="container">
+      <form class="row g-3">
+        <div class="col-md-4">
+          <label for="validationServer01" >First name* (Otional)`</label>
+          <input type="text" class="form-control " id="validationServer01"  required placeholder="First name">
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationServer02" >Last name</label>
+          <input type="text" class="form-control " id="validationServer02"  required placeholder="Last name">
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationServerUsername" class="form-label">Email</label>
+          <div class="input-group has-validation">
+            <input type="email" class="form-control " id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required placeholder="Email" required>
+            <div id="validationServerUsernameFeedback" class="invalid-feedback">
+              Please write your email.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <label for="validationServerUsername" class="form-label">Password</label>
+            <div class="input-group has-validation">
+              <input type="password" class="form-control" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required placeholder="Password">
+              <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                Please write your password.
+              </div>
+            </div>
+          </div>
+        <div class="col-md-4">
+            <label for="validationServer04" class="form-label">City</label>
+            <select class="form-select " id="validationServer04" aria-describedby="validationServer04Feedback" required  placeholder="City">
+                <option selected disabled value="">Only one</option> 
+              <option>Toshkent</option>
+              <option>Jizzax</option>
+              <option>Buxoro</option>
+            </select>
+            <div id="validationServer04Feedback" class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+        <div class="col-md-4">
+          <label for="validationServer04" class="form-label">District</label>
+          <select class="form-select " id="validationServer04" aria-describedby="validationServer04Feedback" required placeholder="Districkt">
+            <option selected disabled value="">Only one</option>
+            <option>Chilonzor</option>
+            <option>Olmazor</option>
+            <option>Yunusobod</option>
+          </select>
+          <div id="validationServer04Feedback" class="invalid-feedback">
+            Please select a valid district.
+          </div>
+        </div>
+        <div class="col-md-4">
+            <label for="validationServer04" class="form-label">Gender</label>
+            <select class="form-select " id="validationServer04" aria-describedby="validationServer04Feedback" required placeholder="Gender">
+              <option selected disabled value="">Only one</option>
+              <option>Femele</option>
+              <option>Male</option>
+            </select>
+            <div id="validationServer04Feedback" class="invalid-feedback">
+              Please select your gender.
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <label for="validationServerFile" class="form-label">File</label>
+            <input type="file" class="form-control" id="validationServerFile" aria-label="file example" required placeholder="File" accept="image/*" multiple required>
+            <div class="invalid-feedback">Example invalid form file feedback</div>
+          </div>
+
+          <div class="col-md-4">
+            <label for="validationServerUsername" class="form-label">Number</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend3">+998</span>
+              <input type="number" class="form-control " id="validationServerUsername" placeholder="Number" min="2" pattern="[+]{1}[0-9]{3}[0-9]{2}[0-9]{3}[0-9]{2}[0-9]{2}">
+              <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                Please write your number.
+              </div>
+            </div>
+          </div>
+
+
+        <div class="col-md-4">
+            
+         <div class="d-block">
+            <label for="validationSerchek" class="form-label">Married</label>
+         </div>
+          <input type="radio" class="btn-check" name="options-base" id="option5" autocomplete="off" checked>
+          <label class="btn" for="option5">Yes Im married</label>
+
+          <input type="radio" class="btn-check" name="options-base" id="option6" autocomplete="off">
+          <label class="btn" for="option6">No Im married</label>
+        </div>
+
+        <div class="col-md-4">
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Feedback</label>
+          </div>
+        </div>
+        <div class="col-md-4">
+        <label for="exampleColorInput" class="form-label"> Lap Top color</label>
+        <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
+        </div>
+
+          
+      
+      
+
+        
+      
+        <div class="col-md-3">
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+        <div class="col-md-3">
+          <button class="btn btn-primary" type="reset">Reset</button>
+        </div>
+
+       
+
+
+
+      </form>
+    </div>
+    
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
